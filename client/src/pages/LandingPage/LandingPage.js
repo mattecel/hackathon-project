@@ -15,9 +15,8 @@ export default class LandingPage extends Component {
                 <Screenflow/>
                 <Features display={true} heading='Data Visuals'/>
                 <Banner/>
+                <Footer />
             </>
         );
     }
 }
-
- 

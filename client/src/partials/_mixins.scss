@@ -65,6 +65,11 @@
   box-shadow: 0rem 0rem 0.5rem gray;
 }
 
+@mixin h2-text{
+  font-size: 6rem;
+  font-weight: 300;
+}
+
 //BUTTONS-- PADDING, HEIGHT, WIDTH, MARGINS ON ELEMENT DIRECTLY
 
 //FORM FIELDS- HEIGHT, WIDTH, MARGINS ON ELEMENT DIRECTLY
