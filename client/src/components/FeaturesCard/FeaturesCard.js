@@ -1,10 +1,12 @@
 import './FeaturesCard.scss'
 
-const FeaturesCard = ({img, text}) => {
+const FeaturesCard = ({img, text, copyright}) => {
     return (
         <div className='features-card'>
             <img src={img} alt='' className='features-card__img'></img>
-            <p className='features-card__text'>{text}</p>
+            <p className='features-card__text'>{text}
+            <span className={copyright}>TM</span>
+            </p>
         </div>
     );
 };

@@ -10,9 +10,9 @@ const Features = ({heading, display}) => {
         <div className='features'>
             <h2 className='features__heading'>{heading}</h2>
             <div className='features__card-container'>
-                <FeaturesCard text='Get alerted when your appointment gets bumped up' img={featOne}/>
-                <FeaturesCard text='Confirm your appointment and get fast tracked' img={featTwo}/>
-                <FeaturesCard text='Use our maps to get to your local hospital on time' img={featThree}/>
+                <FeaturesCard copyright='features-card__hidden' text='Get alerted when your appointment gets bumped up' img={featOne}/>
+                <FeaturesCard copyright='features-card__copyright' text='Confirm your appointment and get Fast Tracked' img={featTwo}/>
+                <FeaturesCard copyright='features-card__hidden' text='Use our maps to get to your local hospital on time' img={featThree}/>
             </div>
         </div>
     );
@@ -21,9 +21,9 @@ const Features = ({heading, display}) => {
         <div className='features'>
         <h2 className='features__heading'>{heading}</h2>
         <div className='features__card-container'>
-            <FeaturesCard text='' img=''/>
-            <FeaturesCard text='' img=''/>
-            <FeaturesCard text='' img=''/>
+            <FeaturesCard copyright='features-card__hidden' text='' img=''/>
+            <FeaturesCard copyright='features-card__hidden' text='' img=''/>
+            <FeaturesCard copyright='features-card__hidden' text='' img=''/>
         </div>
     </div>
         );
