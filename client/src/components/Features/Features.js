@@ -28,14 +28,17 @@ const Features = ({ heading, display }) => {
         </div>
       </div>
     );
-    } else {
-        return (
-        <div className='features' id='resources'>
-        <h2 className='features__heading heading-two'>{heading}</h2>
-            <p className='features__text'>Our goal is to turn these missed appointments into opportunities for others.</p>
-    </div>
-        );
-    }
+  } else {
+    return (
+      <div className="features" id="resources">
+        <h2 className="features__heading heading-two">{heading}</h2>
+        <p className="features__text">
+          Our goal is to turn these missed appointments into opportunities for
+          others.
+        </p>
+      </div>
+    );
+  }
 };
 
 export default Features;

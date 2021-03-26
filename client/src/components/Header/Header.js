@@ -4,12 +4,6 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/icons/Group.png";
 
 const Header = () => {
-  // const featureRef = useRef();
-
-  // function handleFeaturesClick() {
-  //   featureRef.current.scrollIntoView({ behavior: "smooth" });
-  // }
-
   return (
     <div className="container">
       <section className="header">
