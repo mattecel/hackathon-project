@@ -1,0 +1,30 @@
+
+@use './variables' as *;
+
+//BREAKPOINTS
+@mixin tablet {
+    @media (min-width: $tablet-breakpoint) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: $desktop-breakpoint) {
+        @content;
+    }
+}
+
+
+//TEXT STYLES- MOBILE TEXT STYLES
+
+//TEXT STYLES- TABLET & DESKTOP TEXT STYLES
+
+//BUTTONS-- PADDING, HEIGHT, WIDTH, MARGINS ON ELEMENT DIRECTLY
+
+//FORM FIELDS- HEIGHT, WIDTH, MARGINS ON ELEMENT DIRECTLY
+
+//TAGS - HEIGHT ON ELEMENT DIRECTLY
+
+// side padding for components
+
+// set responsveness on main components
