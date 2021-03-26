@@ -14,7 +14,7 @@ export default class LandingPage extends Component {
                 <Hero/>
                 <Features display={false} heading='How It Works'/>
                 <Screenflow/>
-                <Features display={true} heading='Data Visuals'/>
+                <Features display={true} heading='Resources'/>
                 <Banner/>
                 <Footer />
             </>
