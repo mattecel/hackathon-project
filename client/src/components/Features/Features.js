@@ -19,8 +19,8 @@ const Features = ({heading, display}) => {
     } else {
         return (
         <div className='features'>
-        <h2 className='features__heading'>{heading}</h2>
-            <p className='features-card__text'></p>
+        <h2 className='features__heading heading-two'>{heading}</h2>
+            <p className='features__text'>Our goal is to turn these missed appointments into opportunities for others.</p>
     </div>
         );
     }
