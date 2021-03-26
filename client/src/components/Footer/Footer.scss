@@ -1,0 +1,64 @@
+@use '../../partials/variables' as *;
+@use '../../partials/mixins' as *;
+@use '../../partials/resets' as *;
+
+.footContainer {
+  height: 33.6rem;
+  padding: 0 12rem;
+  display: flex;
+  align-items: center;
+  background-color: #fafafa;
+
+  .footer {
+    display: flex;
+    align-items: center;
+    padding-top: 5.3rem;
+    border-top: 1px solid black;
+    width: 100%;
+
+    .logo {
+      display: flex;
+      align-items: center;
+      width: 22rem;
+
+      &__image {
+        height: 4.1rem;
+      }
+
+      &__title {
+        font-size: 3.4rem;
+        font-weight: 400;
+        margin-left: 1.5rem;
+        color: black;
+      }
+    }
+
+    .foot-links {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 35rem;
+      margin-left: 6.5rem;
+
+      &__item {
+        &__links {
+          @include nav-text;
+        }
+      }
+    }
+    .language {
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+
+      &__blurb {
+        @include nav-text;
+      }
+
+      &__icon {
+        height: 1.2rem;
+        margin: 0 2rem;
+      }
+    }
+  }
+}
