@@ -1,27 +1,69 @@
-
 @use './variables' as *;
 
 //BREAKPOINTS
 @mixin tablet {
-    @media (min-width: $tablet-breakpoint) {
-        @content;
-    }
+  @media (min-width: $tablet-breakpoint) {
+    @content;
+  }
 }
 
 @mixin desktop {
-    @media (min-width: $desktop-breakpoint) {
-        @content;
-    }
+  @media (min-width: $desktop-breakpoint) {
+    @content;
+  }
 }
 
 @mixin features-card {
-    box-shadow: 5px 5px 5px rgba(19, 24, 44, 0.1);
-    border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(19, 24, 44, 0.1);
+  border-radius: 3px;
+}
+
+//TEXT STYLES- TABLET & DESKTOP TEXT STYLES
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../assets/fonts/Roboto-Light.woff2) format("woff2"),
+    url(../assets/fonts/Roboto-Light.woff) format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../assets/fonts/Roboto-Regular.woff2) format("woff2"),
+    url(../assets/fonts/Roboto-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../assets/fonts/Roboto-Medium.woff2) format("woff2"),
+    url(../assets/fonts/Roboto-Medium.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
 }
 
 //TEXT STYLES- MOBILE TEXT STYLES
 
-//TEXT STYLES- TABLET & DESKTOP TEXT STYLES
+@mixin nav-text {
+  font-size: 2.4rem;
+  color: black;
+  font-weight: 300;
+  line-height: 3.2rem;
+}
+
+@mixin nav-button {
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  color: black;
+  font-weight: 500;
+  height: 5.6rem;
+  width: 14.4rem;
+  border-radius: 0.4rem;
+  box-shadow: 0rem 0rem 0.5rem gray;
+}
 
 //BUTTONS-- PADDING, HEIGHT, WIDTH, MARGINS ON ELEMENT DIRECTLY
 
