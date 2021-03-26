@@ -1,0 +1,10 @@
+
+@use '../../partials/variables' as *;
+@use '../../partials/mixins' as *;
+
+.header {
+    display: flex;
+    background-color: gray;
+    // Temp
+    height: 80px;
+}

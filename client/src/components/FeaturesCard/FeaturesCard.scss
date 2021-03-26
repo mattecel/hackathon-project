@@ -1,0 +1,19 @@
+
+@use '../../partials/variables' as *;
+@use '../../partials/mixins' as *;
+
+.features-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    &__img {
+        height: 200px;
+        width: 200px;
+        background-color: white;
+        @include features-card;
+    }
+    &__text {
+        display: flex;
+        align-self: center;
+    }
+}
