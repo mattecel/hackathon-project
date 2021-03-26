@@ -20,11 +20,7 @@ const Features = ({heading, display}) => {
         return (
         <div className='features'>
         <h2 className='features__heading'>{heading}</h2>
-        <div className='features__card-container'>
-            <FeaturesCard copyright='features-card__hidden' text='' img=''/>
-            <FeaturesCard copyright='features-card__hidden' text='' img=''/>
-            <FeaturesCard copyright='features-card__hidden' text='' img=''/>
-        </div>
+            <p className='features-card__text'></p>
     </div>
         );
     }
