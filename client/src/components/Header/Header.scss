@@ -1,10 +1,57 @@
-
 @use '../../partials/variables' as *;
 @use '../../partials/mixins' as *;
+@use '../../partials/resets' as *;
 
-.header {
+.container {
+  background-color: $background-grey;
+  padding-left: 12rem;
+  padding-right: 12rem;
+
+  .header {
     display: flex;
-    background-color: gray;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0 auto;
+    background-color: $background-grey;
     // Temp
-    height: 80px;
+    height: 8.8rem;
+
+    .logo {
+      display: flex;
+      align-items: center;
+
+      flex: 2;
+
+      &__image {
+        height: 3.2rem;
+      }
+
+      &__title {
+        @include nav-text;
+        margin-left: 1rem;
+      }
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex: 1.8;
+
+      &__item {
+        &__links {
+          @include nav-text;
+        }
+
+        &__button {
+          @include nav-button;
+
+          &:hover {
+            box-shadow: 0rem 0rem 0.7rem rgb(92, 89, 89);
+          }
+        }
+      }
+    }
+  }
 }
