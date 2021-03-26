@@ -1,5 +1,5 @@
 import './Hero.scss';
-import fastTrackLogo from '../../assets/fasttracklogo.svg';
+import fastTrackLogo from '../../assets/icons/Group.png';
 
 const Hero = () => {
     return (
