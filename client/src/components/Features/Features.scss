@@ -1,0 +1,21 @@
+
+@use '../../partials/variables' as *;
+@use '../../partials/mixins' as *;
+
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(216, 212, 212);
+
+    &__heading {
+        display: flex;
+        align-self: center;
+    }
+
+    &__card-container {
+        display: flex;
+        justify-content: space-around;
+    }
+}

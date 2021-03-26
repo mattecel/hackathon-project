@@ -14,6 +14,10 @@
     }
 }
 
+@mixin features-card {
+    box-shadow: 5px 5px 5px rgba(19, 24, 44, 0.1);
+    border-radius: 3px;
+}
 
 //TEXT STYLES- MOBILE TEXT STYLES
 

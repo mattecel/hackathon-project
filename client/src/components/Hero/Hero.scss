@@ -1,0 +1,33 @@
+
+@use '../../partials/variables' as *;
+@use '../../partials/mixins' as *;
+
+.hero {
+    display: flex;
+    padding: 40px;
+    &__card {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        margin-left: 10%;
+        //temp
+        margin-top: 10%;
+    }
+    &__cta {
+        display: flex;
+        height: 100px;
+        width: 80%;
+    }
+    &__button {
+        height: 50px;
+        width: 40%
+    }
+    &__img {
+        border: 3px solid black;
+        height: 300px;
+        width: 40%;
+        margin-left: 20%;
+        //temp
+        margin-top: 10%;
+    }
+}
