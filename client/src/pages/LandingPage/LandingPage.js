@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Hero from '../../components/Hero/Hero';
-import DataVisuals from '../../components/DataVisuals/DataVisuals';
 import Features from '../../components/Features/Features';
 import Screenflow from '../../components/Screenflow/Screenflow';
 import Banner from '../../components/Banner/Banner';
+import Footer from '../../components/Footer/Footer';
 
 
 export default class LandingPage extends Component {
@@ -12,13 +12,12 @@ export default class LandingPage extends Component {
         return (
             <>
                 <Hero/>
-                <DataVisuals/>
-                <Features/>
+                <Features display={false} heading='How It Works'/>
                 <Screenflow/>
+                <Features display={true} heading='Data Visuals'/>
                 <Banner/>
+                <Footer />
             </>
         );
     }
 }
-
- 

@@ -3,9 +3,9 @@
 @use '../../partials/resets' as *;
 
 .container {
-  background-color: $background-grey;
-  padding-left: 12rem;
-  padding-right: 12rem;
+  background-color: $white;
+  padding: 0 12rem;
+  box-shadow: 0rem 0rem 0.7rem rgb(92, 89, 89);
 
   .header {
     display: flex;
@@ -13,7 +13,7 @@
     justify-content: space-between;
 
     margin: 0 auto;
-    background-color: $background-grey;
+    background-color: $white;
     // Temp
     height: 8.8rem;
 

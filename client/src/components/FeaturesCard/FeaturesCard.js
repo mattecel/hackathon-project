@@ -1,10 +1,10 @@
 import './FeaturesCard.scss'
 
-const FeaturesCard = () => {
+const FeaturesCard = ({img, text}) => {
     return (
         <div className='features-card'>
-            <div className='features-card__img'></div>
-            <p className='features-card__text'>TEXT</p>
+            <img src={img} className='features-card__img'></img>
+            <p className='features-card__text'>{text}</p>
         </div>
     );
 };

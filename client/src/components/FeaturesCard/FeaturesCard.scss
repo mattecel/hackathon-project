@@ -5,15 +5,22 @@
 .features-card {
     display: flex;
     justify-content: center;
+    align-content: center;
     flex-direction: column;
+    font-size: 62.5%;
     &__img {
-        height: 200px;
-        width: 200px;
+        height: 288px;
+        width: 288px;
+        padding: 28px;
         background-color: white;
         @include features-card;
+        margin-bottom: 32px;
     }
     &__text {
         display: flex;
         align-self: center;
+        text-align: center;
+        font-size: 24px;
+        width: 270px;
     }
 }
