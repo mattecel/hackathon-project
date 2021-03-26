@@ -3,6 +3,7 @@ import Hero from '../../components/Hero/Hero';
 import Features from '../../components/Features/Features';
 import Screenflow from '../../components/Screenflow/Screenflow';
 import Banner from '../../components/Banner/Banner';
+import Footer from '../../components/Footer/Footer';
 
 
 export default class LandingPage extends Component {
