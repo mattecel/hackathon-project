@@ -28,18 +28,14 @@ const Features = ({ heading, display }) => {
         </div>
       </div>
     );
-  } else {
-    return (
-      <div className="features" id="resources">
-        <h2 className="features__heading">{heading}</h2>
-        <div className="features__card-container">
-          <FeaturesCard copyright="features-card__hidden" text="" img="" />
-          <FeaturesCard copyright="features-card__hidden" text="" img="" />
-          <FeaturesCard copyright="features-card__hidden" text="" img="" />
-        </div>
-      </div>
-    );
-  }
+    } else {
+        return (
+        <div className='features' id='resources'>
+        <h2 className='features__heading heading-two'>{heading}</h2>
+            <p className='features__text'>Our goal is to turn these missed appointments into opportunities for others.</p>
+    </div>
+        );
+    }
 };
 
 export default Features;
