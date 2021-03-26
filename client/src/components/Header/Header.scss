@@ -48,7 +48,7 @@
           @include nav-button;
 
           &:hover {
-            box-shadow: 0rem 0rem 0.7rem rgb(92, 89, 89);
+            box-shadow: 0rem 0.4rem 0.7rem rgba(0, 0, 0, 0.6);
           }
         }
       }
